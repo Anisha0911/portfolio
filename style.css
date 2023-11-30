@@ -452,7 +452,7 @@ a.box.anc {
     content: "get in touch";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+/*     width: calc(50% - 30px); */
     padding: 10px;
 }
 .contact .contact-content .text{
