@@ -270,15 +270,17 @@ section .title::after{
     background: #111;
     content: "what i provide";
 }
-.services .serv-content .card{
+.services .serv-content .card {
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
-    cursor: pointer;
+    padding-top: 22px;
+    padding-bottom: 22px;
     transition: all 0.3s ease;
+    height: 72vh;
 }
+
 .services .serv-content .card:hover{
     background: #3dcfd3;
 }
@@ -393,6 +395,10 @@ section .title::after{
     transition: all 0.3s ease;
     width: 100%;
 }
+.box {
+    margin-inline: 9%;
+    cursor: pointer;
+}
 a.box.anc {
     width: 90%;
 }
@@ -452,7 +458,7 @@ a.box.anc {
     content: "get in touch";
 }
 .contact .contact-content .column{
-/*     width: calc(50% - 30px); */
+    /* width: calc(50% - 30px); */
     padding: 10px;
 }
 .contact .contact-content .text{
